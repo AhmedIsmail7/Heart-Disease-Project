@@ -1,0 +1,7 @@
+*.ipynb
+!notebooks/01_data_preprocessing.ipynb
+!notebooks/02_pca_analysis.ipynb
+!notebooks/03_feature_selection.ipynb
+!notebooks/04_supervised_learning.ipynb
+!notebooks/05_unsupervised_learning.ipynb
+!notebooks/06_hyperparameter_tuning.ipynb
