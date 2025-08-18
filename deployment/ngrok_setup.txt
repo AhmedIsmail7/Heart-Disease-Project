@@ -1,0 +1,29 @@
+=================================================
+  Ngrok Deployment Guide for Streamlit App
+=================================================
+
+This guide will help you create a public URL for your locally running Streamlit application.
+
+---
+Step 1: Sign Up and Get Your Authtoken
+---------------------------------------
+1. Go to the ngrok dashboard: https://dashboard.ngrok.com/
+2. Sign up for a free account.
+3. On the dashboard, navigate to "Your Authtoken" on the left sidebar.
+4. Copy your personal authtoken command.
+
+---
+Step 2: Run Your Streamlit App Locally
+---------------------------------------
+1. Open a terminal in your project's root directory.
+2. Run the following command to start the app:
+   `streamlit run ui/app.py`
+3. The app will run on `http://localhost:8501`. Keep this terminal running.
+
+---
+Step 3: Create the Public URL with Ngrok
+-----------------------------------------
+1. Open a second terminal.
+2. Type the following command to expose your Streamlit port (8501):
+   `ngrok http 8501`
+3. Ngrok will generate a public URL. Share this link to give others access to your app.
