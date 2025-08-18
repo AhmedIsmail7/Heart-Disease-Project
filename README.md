@@ -1,6 +1,6 @@
 # Comprehensive Machine Learning Pipeline on Heart Disease UCI Dataset
 
-This project analyzes and predicts heart disease risk using the UCI dataset. The workflow covers data preprocessing, feature selection, model training (supervised and unsupervised), hyperparameter tuning, and deployment with a Streamlit UI. [cite: 4, 5, 6, 7]
+This project analyzes and predicts heart disease risk using the UCI dataset. The workflow covers data preprocessing, feature selection, model training (supervised and unsupervised), hyperparameter tuning, and deployment with a Streamlit UI. 
 
 ## How to Run
 
