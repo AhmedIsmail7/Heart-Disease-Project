@@ -100,4 +100,6 @@ if st.button("Predict Heart Disease"):
         else:
             st.success("##### ❤️ **Low Risk of Heart Disease**")
         
-        st.warning("⚠️ **Disclaimer:** This prediction is for informational purposes only and is based on a machine learning model. It is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of a qualified health provider with any questions you may have regarding a medical condition.")
+        st.warning("⚠️ **Disclaimer:** This prediction is for informational purposes only and is based on a machine learning model." \
+        " It is not a substitute for professional medical advice, diagnosis, or treatment." \
+        " Always seek the advice of a qualified health provider with any questions you may have regarding a medical condition.")
